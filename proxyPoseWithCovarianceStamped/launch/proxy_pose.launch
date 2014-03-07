@@ -1,0 +1,9 @@
+<launch>
+	<node name="proxyPose2" pkg="proxyPoseWithCovarianceStamped" type="proxyPoseWithCovarianceStamped" output="screen" respawn="true">		
+		<param name="domain_name" value="IMPERA"/>
+		<param name="ros_msg_name" value="amcl_pose" />
+		<param name="dds_msg_name" value="ddsProxyPoseWithCovarianceStamped" />
+		<param name="frequency" value="2" />
+		<param name="robot_name" value="scout1" />
+	</node>
+</launch>

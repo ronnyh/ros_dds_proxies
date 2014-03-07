@@ -1,0 +1,9 @@
+<launch>
+	<node name="proxyJoy1" pkg="proxyJoy" type="proxyJoy" output="screen" respawn="true">		
+		<param name="domain_name" value="IMPERA"/>
+		<param name="ros_msg_name" value="joy" />
+		<param name="dds_msg_name" value="ddsJoy" />
+		<param name="frequency" value="2" />
+		<param name="local_publisher_node_name" value="/proxyJoy2" />
+	</node>
+</launch>

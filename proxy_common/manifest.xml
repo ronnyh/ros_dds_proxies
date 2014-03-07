@@ -1,0 +1,20 @@
+<package>
+  <description brief="proxy_common">
+
+     ROS/DDS Proxy Common package. It contains the necessary header and cpp files for the proxy.
+
+  </description>
+  <author>Ronny Hartanto</author>
+  <license>GPL3</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/proxy_common</url>
+
+  <depend package="roscpp"/>
+  
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lproxy_common"/>
+  </export>
+
+</package>
+
+

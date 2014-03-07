@@ -1,0 +1,14 @@
+#ifndef PROXYPOSESTAMPED_H
+#define PROXYPOSESTAMPED_H
+#include "Time.idl"
+#include "Header.idl"
+#include "Pose.idl"
+
+struct proxyPoseStamped{
+	Header 	header;
+	Pose 	pose;
+}; //proxyPoseStamped
+#pragma keylist proxyPoseStamped
+
+#endif //PROXYPOSESTAMPED_H
+

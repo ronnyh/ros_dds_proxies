@@ -1,0 +1,9 @@
+<launch>
+	<node name="proxy_robot_pose" pkg="proxyPoseStamped" type="proxyPoseStamped" output="screen" respawn="true">		
+		<param name="domain_name" value="IMPERA"/>
+		<param name="ros_msg_name" value="robot_pose" />
+		<param name="dds_msg_name" value="ddsRobotPoseStamped" />
+		<param name="frequency" value="10" />
+		<param name="robot_name" value="client1" />
+	</node>
+</launch>

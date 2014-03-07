@@ -1,0 +1,15 @@
+<package>
+  <description brief="proxyPoseWithCovarianceStamped">
+
+     A Proxy for PoseStamped message
+
+  </description>
+  <author>Ronny Hartanto</author>
+  <license>GPL3</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/occupancyGridPublisher</url>
+  <depend package="roscpp"/>
+  <depend package="nav_msgs"/>
+  <depend package="proxy_common"/> 
+  
+</package>

@@ -1,0 +1,9 @@
+<stack>
+  <description brief="ros_dds_proxies">ros_dds_proxies</description>
+  <author>Maintained by Ronny Hartanto</author>
+  <license>GPL3</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ros_dds_proxies</url>
+  <depend stack="ros" />
+
+</stack>

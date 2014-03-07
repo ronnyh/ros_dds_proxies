@@ -1,0 +1,16 @@
+<package>
+  <description brief="proxyJoy">
+
+     A DDS Proxy for Joy message.
+
+  </description>
+  <author>Ronny Hartanto</author>
+  <license>GPL3</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/occupancyGridPublisher</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="proxy_common"/> 
+
+</package>

@@ -1,0 +1,9 @@
+<launch>
+	<node name="proxy_poi" pkg="proxyPoseStamped" type="proxyPoseStamped" output="screen" respawn="true">		
+		<param name="domain_name" value="IMPERA"/>
+		<param name="ros_msg_name" value="point_of_interest" />
+		<param name="dds_msg_name" value="ddsPOIStamped" />
+		<param name="frequency" value="2" />
+		<param name="robot_name" value="client1" />
+	</node>
+</launch>
